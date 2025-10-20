@@ -22,7 +22,7 @@ TEMPLATE = """
   </head>
   <body>
     <div class="card">
-      <h1>One-Click PassworD GENERATOR</h1>
+      <h1>OneClick PassworD GENERATOR</h1>
       {% if password %}
         <div class="pwd" id="pwd">{{ password }}</div>
         <button onclick="copy()">Copy</button>
