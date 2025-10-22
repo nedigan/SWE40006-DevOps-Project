@@ -11,7 +11,7 @@ TEMPLATE = """
     <meta charset="utf-8">
     <title>Password Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
   </head>
   <body>
     <div class="card">

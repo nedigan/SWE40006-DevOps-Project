@@ -4,7 +4,7 @@ import sys
 def test_files_exists():
     filepath = "app.py"
     assert os.path.exists(filepath), f"File not found: {filepath}"
-    filepath = "styles.css"
+    filepath = "./static/styles.css"
     assert os.path.exists(filepath), f"File not found: {filepath}"
 
 if __name__ == "__main__":
